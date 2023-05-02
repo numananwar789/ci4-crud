@@ -15,7 +15,7 @@ if (version_compare(PHP_VERSION, $minPhpVersion, '<')) {
 // Path to the front controller (this file)
 define('FCPATH', __DIR__ . DIRECTORY_SEPARATOR);
 
-define('DBDNS','Postgre://codeigniter4_user:codeigniter4_user123@127.0.0.1:5432/codeigniter4_user');
+// define('DBDNS','Postgre://codeigniter4_user:codeigniter4_user123@127.0.0.1:5432/codeigniter4_user');
 
 // Ensure the current directory is pointing to the front controller's directory
 chdir(FCPATH);

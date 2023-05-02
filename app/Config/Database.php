@@ -25,9 +25,14 @@ class Database extends Config
      * The default database connection.
      */
     // public array $default = [
-    //     'DSN' => DBDNS,
+    //     // 'DSN' => DBDNS,
+    //     'DSN' => 'Postgre://codeigniter4_user:codeigniter4_user123@127.0.0.1:5432/codeigniter4_user',
     //     'DBDriver' => 'Postgre',
     //     'cache' => true
+    // ];
+
+    // public array $default = [
+    //     'DSN' => 'Postgre://codeigniter4_user:codeigniter4_user123@hostname:5432/codeigniter4_user?charset=utf8&connect_timeout=5&sslmode=1',
     // ];
 
     public array $default = [
